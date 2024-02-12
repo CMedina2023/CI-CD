@@ -12,7 +12,7 @@ from selenium.webdriver.chrome.options import Options
 class base_test(unittest.TestCase):
 
     def setUp(self):
-        c = Service(r"C:\chromedriver_win32\chromedriver.exe")
+        c = Service(r"C:/Users/Carlos Medina/Downloads/chromedriver-win64/chromedriver.exe")
         # Configurar las opciones del controlador para tomar capturas de pantalla
         chrome_options = Options()
         chrome_options.add_argument("--headless")  # Ejecutar en modo headless (sin ventana del navegador)

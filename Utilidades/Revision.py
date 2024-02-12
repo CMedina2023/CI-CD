@@ -14,7 +14,7 @@ vacio = ""
 path = str(pathlib.Path().absolute())
 
 def test_Compra():
-    c = Service(r"C:\chromedriver_win32\chromedriver.exe")
+    c = Service(r"C:\Users\Carlos Medina\Downloads\chromedriver-win64\chromedriver.exe")
     driver = webdriver.Chrome(service=c)
     f = funciones(driver)
     f.Navegar("https://www.saucedemo.com/", tg)
